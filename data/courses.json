@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CRS001",
+    "name": "Data Structures and Algorithms",
+    "code": "CS601",
+    "credits": 4,
+    "instructor": "Dr. Priya Nair",
+    "schedule": "Mon, Wed 09:00 AM",
+    "progress": 78
+  },
+  {
+    "id": "CRS002",
+    "name": "Internet of Things",
+    "code": "IoT601",
+    "credits": 4,
+    "instructor": "Prof. Ramesh Kumar",
+    "schedule": "Tue, Thu 11:00 AM",
+    "progress": 65
+  },
+  {
+    "id": "CRS003",
+    "name": "Cloud Computing",
+    "code": "CS602",
+    "credits": 3,
+    "instructor": "Dr. Ananya Reddy",
+    "schedule": "Mon, Fri 02:00 PM",
+    "progress": 82
+  },
+  {
+    "id": "CRS004",
+    "name": "Machine Learning",
+    "code": "CS603",
+    "credits": 4,
+    "instructor": "Prof. David Lee",
+    "schedule": "Tue, Thu 03:30 PM",
+    "progress": 71
+  },
+  {
+    "id": "CRS005",
+    "name": "Cyber Security",
+    "code": "CS604",
+    "credits": 3,
+    "instructor": "Dr. Meera Iyer",
+    "schedule": "Wed, Fri 10:00 AM",
+    "progress": 68
+  },
+  {
+    "id": "CRS006",
+    "name": "Embedded Systems",
+    "code": "IoT602",
+    "credits": 3,
+    "instructor": "Prof. Ramesh Kumar",
+    "schedule": "Thu 09:00 AM",
+    "progress": 74
+  }
+]

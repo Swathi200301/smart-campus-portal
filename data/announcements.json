@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ANN001",
+    "title": "Mid-term Exam Schedule Released",
+    "message": "The mid-term examination schedule for all departments is now available on the portal.",
+    "date": "2026-06-22",
+    "priority": "high"
+  },
+  {
+    "id": "ANN002",
+    "title": "Library Extended Hours",
+    "message": "Central library will remain open until 11 PM during exam week.",
+    "date": "2026-06-21",
+    "priority": "medium"
+  },
+  {
+    "id": "ANN003",
+    "title": "Campus Wi-Fi Maintenance",
+    "message": "Scheduled maintenance on June 24 from 2 AM to 4 AM. Brief interruptions expected.",
+    "date": "2026-06-20",
+    "priority": "low"
+  },
+  {
+    "id": "ANN004",
+    "title": "Scholarship Applications Open",
+    "message": "Merit-based scholarships for the 2026-27 academic year. Apply before July 15.",
+    "date": "2026-06-19",
+    "priority": "high"
+  }
+]

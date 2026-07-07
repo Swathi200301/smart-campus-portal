@@ -1,0 +1,68 @@
+[
+  {
+    "id": "PL001",
+    "company": "Google",
+    "role": "Software Engineer Intern",
+    "package": "$8,500/month",
+    "location": "Mountain View, CA",
+    "deadline": "2026-07-10",
+    "eligibility": "CGPA ≥ 8.0, CS/IT branch",
+    "status": "open",
+    "applicants": 142
+  },
+  {
+    "id": "PL002",
+    "company": "Microsoft",
+    "role": "Cloud Solutions Architect",
+    "package": "$95,000/year",
+    "location": "Seattle, WA",
+    "deadline": "2026-07-15",
+    "eligibility": "CGPA ≥ 7.5, Final year students",
+    "status": "open",
+    "applicants": 98
+  },
+  {
+    "id": "PL003",
+    "company": "Amazon",
+    "role": "SDE-1",
+    "package": "$110,000/year",
+    "location": "Remote / Seattle",
+    "deadline": "2026-06-30",
+    "eligibility": "CGPA ≥ 7.0, No active backlogs",
+    "status": "open",
+    "applicants": 215
+  },
+  {
+    "id": "PL004",
+    "company": "Deloitte",
+    "role": "Technology Consultant",
+    "package": "$72,000/year",
+    "location": "New York, NY",
+    "deadline": "2026-06-25",
+    "eligibility": "All branches, CGPA ≥ 6.5",
+    "status": "closed",
+    "applicants": 167
+  },
+  {
+    "id": "PL005",
+    "company": "Tesla",
+    "role": "Embedded Systems Engineer",
+    "package": "$105,000/year",
+    "location": "Austin, TX",
+    "deadline": "2026-08-01",
+    "eligibility": "ECE/CS, CGPA ≥ 8.0",
+    "status": "upcoming",
+    "applicants": 0
+  },
+  {
+    "id": "PL006",
+    "company": "Infosys",
+    "role": "Systems Engineer",
+    "package": "$45,000/year",
+    "location": "Bangalore, India",
+    "deadline": "2026-07-20",
+    "eligibility": "All branches, CGPA ≥ 6.0",
+    "status": "open",
+    "applicants": 312
+  }
+]

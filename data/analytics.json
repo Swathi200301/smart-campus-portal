@@ -1,0 +1,31 @@
+{
+  "enrollmentTrend": [
+    { "month": "Jan", "students": 4200, "faculty": 280 },
+    { "month": "Feb", "students": 4250, "faculty": 282 },
+    { "month": "Mar", "students": 4300, "faculty": 285 },
+    { "month": "Apr", "students": 4380, "faculty": 288 },
+    { "month": "May", "students": 4450, "faculty": 290 },
+    { "month": "Jun", "students": 4520, "faculty": 295 }
+  ],
+  "attendanceOverview": [
+    { "department": "Computer Science", "rate": 92 },
+    { "department": "Electrical Engineering", "rate": 88 },
+    { "department": "Mechanical Engineering", "rate": 85 },
+    { "department": "Business Administration", "rate": 90 },
+    { "department": "Mathematics", "rate": 94 }
+  ],
+  "placementStats": [
+    { "year": "2022", "placed": 780, "total": 950 },
+    { "year": "2023", "placed": 820, "total": 980 },
+    { "year": "2024", "placed": 890, "total": 1020 },
+    { "year": "2025", "placed": 940, "total": 1050 },
+    { "year": "2026", "placed": 520, "total": 1100 }
+  ],
+  "eventParticipation": [
+    { "event": "Tech Fest", "participants": 450 },
+    { "event": "Career Fair", "participants": 320 },
+    { "event": "Sports Day", "participants": 680 },
+    { "event": "Cultural Night", "participants": 540 },
+    { "event": "Hackathon", "participants": 180 }
+  ]
+}

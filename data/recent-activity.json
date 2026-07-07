@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ACT001",
+    "action": "Marked present",
+    "detail": "Internet of Things — Jun 20, 2026",
+    "time": "2 hours ago",
+    "icon": "attendance"
+  },
+  {
+    "id": "ACT002",
+    "action": "Submitted assignment",
+    "detail": "Machine Learning — Lab 4: Neural Networks",
+    "time": "5 hours ago",
+    "icon": "assignment"
+  },
+  {
+    "id": "ACT003",
+    "action": "Registered for event",
+    "detail": "Hackathon 2026 — Team IoT Innovators",
+    "time": "1 day ago",
+    "icon": "event"
+  },
+  {
+    "id": "ACT004",
+    "action": "Applied for placement",
+    "detail": "Amazon — SDE-1 Intern",
+    "time": "2 days ago",
+    "icon": "placement"
+  },
+  {
+    "id": "ACT005",
+    "action": "Grade published",
+    "detail": "Cloud Computing — Mid-term: 78/100",
+    "time": "3 days ago",
+    "icon": "grade"
+  },
+  {
+    "id": "ACT006",
+    "action": "Leave request approved",
+    "detail": "Medical Leave — Jun 10–12",
+    "time": "1 week ago",
+    "icon": "leave"
+  }
+]

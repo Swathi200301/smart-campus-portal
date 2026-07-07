@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ATT001",
+    "studentId": "STU101",
+    "studentName": "Emma Wilson",
+    "course": "Data Structures",
+    "date": "2026-06-20",
+    "status": "present",
+    "faculty": "Dr. Sarah Mitchell"
+  },
+  {
+    "id": "ATT002",
+    "studentId": "STU102",
+    "studentName": "James Rodriguez",
+    "course": "Machine Learning",
+    "date": "2026-06-20",
+    "status": "late",
+    "faculty": "Prof. David Lee"
+  },
+  {
+    "id": "ATT003",
+    "studentId": "STU103",
+    "studentName": "Priya Sharma",
+    "course": "Database Systems",
+    "date": "2026-06-19",
+    "status": "present",
+    "faculty": "Dr. Sarah Mitchell"
+  },
+  {
+    "id": "ATT004",
+    "studentId": "STU104",
+    "studentName": "Noah Brown",
+    "course": "Web Development",
+    "date": "2026-06-19",
+    "status": "absent",
+    "faculty": "Prof. Lisa Wang"
+  },
+  {
+    "id": "ATT005",
+    "studentId": "STU105",
+    "studentName": "Sophia Martinez",
+    "course": "Operating Systems",
+    "date": "2026-06-18",
+    "status": "present",
+    "faculty": "Dr. Robert Kim"
+  },
+  {
+    "id": "ATT006",
+    "studentId": "STU106",
+    "studentName": "Liam Anderson",
+    "course": "Data Structures",
+    "date": "2026-06-18",
+    "status": "present",
+    "faculty": "Dr. Sarah Mitchell"
+  },
+  {
+    "id": "ATT007",
+    "studentId": "STU107",
+    "studentName": "Olivia Taylor",
+    "course": "Machine Learning",
+    "date": "2026-06-17",
+    "status": "absent",
+    "faculty": "Prof. David Lee"
+  },
+  {
+    "id": "ATT008",
+    "studentId": "STU108",
+    "studentName": "Ethan Davis",
+    "course": "Database Systems",
+    "date": "2026-06-17",
+    "status": "late",
+    "faculty": "Dr. Sarah Mitchell"
+  }
+]

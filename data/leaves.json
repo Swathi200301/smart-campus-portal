@@ -1,0 +1,62 @@
+[
+  {
+    "id": "LV001",
+    "applicantName": "Emma Wilson",
+    "role": "student",
+    "type": "Medical Leave",
+    "startDate": "2026-06-25",
+    "endDate": "2026-06-27",
+    "reason": "Scheduled medical procedure",
+    "status": "pending"
+  },
+  {
+    "id": "LV002",
+    "applicantName": "Dr. Sarah Mitchell",
+    "role": "faculty",
+    "type": "Conference Leave",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-05",
+    "reason": "IEEE International Conference presentation",
+    "status": "approved"
+  },
+  {
+    "id": "LV003",
+    "applicantName": "James Rodriguez",
+    "role": "student",
+    "type": "Personal Leave",
+    "startDate": "2026-06-22",
+    "endDate": "2026-06-22",
+    "reason": "Family emergency",
+    "status": "approved"
+  },
+  {
+    "id": "LV004",
+    "applicantName": "Prof. David Lee",
+    "role": "faculty",
+    "type": "Sabbatical",
+    "startDate": "2026-08-01",
+    "endDate": "2026-12-31",
+    "reason": "Research sabbatical at MIT",
+    "status": "pending"
+  },
+  {
+    "id": "LV005",
+    "applicantName": "Priya Sharma",
+    "role": "student",
+    "type": "Sports Leave",
+    "startDate": "2026-06-28",
+    "endDate": "2026-07-02",
+    "reason": "Inter-university athletics championship",
+    "status": "pending"
+  },
+  {
+    "id": "LV006",
+    "applicantName": "Noah Brown",
+    "role": "student",
+    "type": "Medical Leave",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-12",
+    "reason": "Flu recovery",
+    "status": "rejected"
+  }
+]

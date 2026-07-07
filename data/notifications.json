@@ -1,0 +1,55 @@
+[
+  {
+    "id": "NOT001",
+    "title": "Placement Drive Reminder",
+    "message": "Cambridge Institute placement drive starts July 5. Register before the deadline.",
+    "time": "10 min ago",
+    "type": "warning",
+    "read": false,
+    "link": "/placements"
+  },
+  {
+    "id": "NOT002",
+    "title": "Assignment Submitted",
+    "message": "Your Machine Learning lab assignment was submitted successfully.",
+    "time": "1 hour ago",
+    "type": "success",
+    "read": false
+  },
+  {
+    "id": "NOT003",
+    "title": "Hackathon 2026 Registration",
+    "message": "Registration is open for Hackathon 2026. Form your team of 2–4 members.",
+    "time": "3 hours ago",
+    "type": "info",
+    "read": false,
+    "link": "/events"
+  },
+  {
+    "id": "NOT004",
+    "title": "Attendance Updated",
+    "message": "Your attendance for Internet of Things (Jun 20) marked as Present.",
+    "time": "Yesterday",
+    "type": "success",
+    "read": true,
+    "link": "/attendance"
+  },
+  {
+    "id": "NOT005",
+    "title": "AI Workshop Tomorrow",
+    "message": "AI Workshop scheduled for Jun 30 at 2:00 PM in Computer Lab 3.",
+    "time": "Yesterday",
+    "type": "info",
+    "read": true,
+    "link": "/events"
+  },
+  {
+    "id": "NOT006",
+    "title": "Low Attendance Alert",
+    "message": "Cyber Security attendance is at 85%. Minimum required is 75%.",
+    "time": "2 days ago",
+    "type": "alert",
+    "read": true,
+    "link": "/attendance"
+  }
+]

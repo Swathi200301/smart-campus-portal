@@ -1,0 +1,26 @@
+[
+  {
+    "id": "USR001",
+    "name": "Swathi C",
+    "email": "swathi.c@cambridgeiot.edu",
+    "role": "student",
+    "avatar": "SC",
+    "department": "Computer Science Engineering (IoT)"
+  },
+  {
+    "id": "USR002",
+    "name": "Dr. Sarah Mitchell",
+    "email": "s.mitchell@campus.edu",
+    "role": "faculty",
+    "avatar": "SM",
+    "department": "Computer Science"
+  },
+  {
+    "id": "USR003",
+    "name": "Michael Chen",
+    "email": "admin@campus.edu",
+    "role": "admin",
+    "avatar": "MC",
+    "department": "Administration"
+  }
+]

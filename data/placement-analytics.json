@@ -1,0 +1,28 @@
+{
+  "applicantsByCompany": [
+    { "company": "Infosys", "applicants": 312 },
+    { "company": "Amazon", "applicants": 215 },
+    { "company": "Google", "applicants": 142 },
+    { "company": "Deloitte", "applicants": 167 },
+    { "company": "Microsoft", "applicants": 98 },
+    { "company": "Tesla", "applicants": 45 }
+  ],
+  "statusDistribution": [
+    { "status": "Open", "count": 4 },
+    { "status": "Closed", "count": 1 },
+    { "status": "Upcoming", "count": 1 }
+  ],
+  "monthlyApplications": [
+    { "month": "Feb", "applications": 45, "offers": 8 },
+    { "month": "Mar", "applications": 78, "offers": 15 },
+    { "month": "Apr", "applications": 120, "offers": 22 },
+    { "month": "May", "applications": 185, "offers": 35 },
+    { "month": "Jun", "applications": 234, "offers": 41 }
+  ],
+  "packageRanges": [
+    { "range": "3–5 LPA", "count": 85 },
+    { "range": "5–8 LPA", "count": 142 },
+    { "range": "8–12 LPA", "count": 98 },
+    { "range": "12+ LPA", "count": 45 }
+  ]
+}

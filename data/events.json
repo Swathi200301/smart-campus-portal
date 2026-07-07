@@ -1,0 +1,35 @@
+[
+  {
+    "id": "EVT001",
+    "title": "Hackathon 2026",
+    "description": "24-hour intra-college hackathon focused on IoT and AI solutions. Teams of 2–4 students from CSE and IoT branches.",
+    "date": "2026-07-20",
+    "time": "09:00 AM",
+    "location": "Innovation Lab, Cambridge Institute of Technology",
+    "category": "Technical",
+    "attendees": 120,
+    "status": "upcoming"
+  },
+  {
+    "id": "EVT002",
+    "title": "Placement Drive",
+    "description": "On-campus recruitment drive for 6th semester CSE and IoT students. Eligible candidates with CGPA ≥ 7.0 and no active backlogs.",
+    "date": "2026-07-05",
+    "time": "10:00 AM",
+    "location": "Seminar Hall, Cambridge Institute of Technology",
+    "category": "Career",
+    "attendees": 85,
+    "status": "upcoming"
+  },
+  {
+    "id": "EVT003",
+    "title": "AI Workshop",
+    "description": "Hands-on workshop covering ML pipelines, neural networks, and deploying AI models on edge IoT devices.",
+    "date": "2026-06-30",
+    "time": "02:00 PM",
+    "location": "Computer Lab 3, CSE Block",
+    "category": "Academic",
+    "attendees": 60,
+    "status": "upcoming"
+  }
+]
