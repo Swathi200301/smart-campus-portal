@@ -10,7 +10,8 @@ import { attendance } from "@/lib/data";
 import type { AttendanceRecord } from "@/types";
 
 export default function AttendancePage() {
-  const [attendanceData, setAttendanceData] = useState(attendance);
+  const [attendanceData, setAttendanceData] =
+  useState<AttendanceRecord[]>(attendance);
   const [showForm, setShowForm] = useState(false);
 const [studentName, setStudentName] = useState("");
 const [course, setCourse] = useState("");
@@ -20,7 +21,9 @@ useEffect(() => {
   const saved = localStorage.getItem("attendance");
 
   if (saved) {
-    setAttendanceData(JSON.parse(saved));
+    setAttendanceData(
+      JSON.parse(saved) as AttendanceRecord[]
+    );
   }
 }, []);
 
@@ -41,10 +44,11 @@ const total = attendanceData.length;
     id: string,
     status: "present" | "absent"
   ) => {
-    const updated = attendanceData.map((student) =>
-      student.id === id
-        ? { ...student, status }
-        : student
+    const updated: AttendanceRecord[] = attendanceData.map(
+      (student) =>
+        student.id === id
+          ? { ...student, status }
+          : student
     );
   
     setAttendanceData(updated);
@@ -55,7 +59,7 @@ const total = attendanceData.length;
     );
   };
   const handleAddStudent = () => {
-    const newStudent = {
+    const newStudent: AttendanceRecord = {
       id: `STU${Date.now()}`,
       studentId: `STU${Math.floor(Math.random() * 1000)}`,
       studentName,
@@ -65,7 +69,10 @@ const total = attendanceData.length;
       status: "present",
     };
   
-    const updated = [...attendanceData, newStudent];
+    const updated: AttendanceRecord[] = [
+      ...attendanceData,
+      newStudent,
+    ];
   
     setAttendanceData(updated);
   
@@ -130,6 +137,43 @@ const total = attendanceData.length;
         .toLowerCase()
         .includes(searchTerm.toLowerCase())
   );
+  const exportCSV = () => {
+    const headers = [
+      "Student ID",
+      "Student Name",
+      "Course",
+      "Faculty",
+      "Date",
+      "Status",
+    ];
+  
+    const rows = attendanceData.map((a) => [
+      a.studentId,
+      a.studentName,
+      a.course,
+      a.faculty,
+      a.date,
+      a.status,
+    ]);
+  
+    const csv = [
+      headers.join(","),
+      ...rows.map((r) => r.join(",")),
+    ].join("\n");
+  
+    const blob = new Blob([csv], {
+      type: "text/csv",
+    });
+  
+    const url = window.URL.createObjectURL(blob);
+  
+    const link = document.createElement("a");
+  
+    link.href = url;
+    link.download = "attendance.csv";
+  
+    link.click();
+  };
   return (
     <div>
       <PageHeader
@@ -137,12 +181,13 @@ const total = attendanceData.length;
         description="Track and manage student attendance across all courses."
         actions={
           <div className="flex gap-2">
-            <button
-              type="button"
-              className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50"
-            >
-              Export CSV
-            </button>
+           <button
+type="button"
+onClick={exportCSV}
+className="rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-medium"
+>
+Export CSV
+</button>
             <button
   type="button"
   onClick={() => setShowForm(true)}
