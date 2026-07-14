@@ -1,36 +1,267 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Smart Campus Management Portal
 
-## Getting Started
+A modern **Smart Campus Management Portal** developed using **Next.js**, **React.js**, **TypeScript**, and **Tailwind CSS** to simplify campus administration through a centralized dashboard.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+🌐 **Website:** https://smart-campus-portal-sepia.vercel.app
+
+---
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/Swathi200301/smart-campus-portal
+
+---
+
+# 📖 Overview
+
+The Smart Campus Management Portal is a web-based application that streamlines campus administration by providing dedicated dashboards and management modules for students, faculty, and administrators.
+
+The system enables users to manage attendance, leave requests, events, placements, analytics, and academic activities through a single platform.
+
+---
+
+# ✨ Features
+
+## 👨‍🎓 Student Module
+
+- Student Dashboard
+- Attendance Tracking
+- Leave Application
+- Placement Opportunities
+- Event Registration
+- Academic Analytics
+- Student Profile
+
+---
+
+## 👨‍🏫 Faculty Module
+
+- Faculty Dashboard
+- Attendance Management
+- Leave Approval
+- Student Monitoring
+- Event Management
+
+---
+
+## 👨‍💼 Admin Module
+
+- Admin Dashboard
+- Student Management
+- Faculty Management
+- Attendance Monitoring
+- Leave Management
+- Placement Portal
+- Event Management
+- Analytics Dashboard
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- Local Storage (Demo Data)
+
+### Development Tools
+
+- Cursor IDE
+- Git
+- GitHub
+- Vercel
+
+---
+
+# 📸 Screenshots
+
+## 🔐 Login Page
+
+<p align="center">
+<img src="./screenshots/1-login.png" width="100%">
+</p>
+
+---
+
+## 🎓 Student Dashboard
+
+<p align="center">
+<img src="./screenshots/2-student-dashboard.png" width="100%">
+</p>
+
+---
+
+## 👨‍🏫 Faculty Dashboard
+
+<p align="center">
+<img src="./screenshots/3-faculty-dashboard.png" width="100%">
+</p>
+
+---
+
+## 📅 Attendance Management
+
+<p align="center">
+<img src="./screenshots/4-attendance.png" width="100%">
+</p>
+
+---
+
+## 📝 Leave Management
+
+<p align="center">
+<img src="./screenshots/5-leave.png" width="100%">
+</p>
+
+---
+
+## 🎉 Event Management
+
+<p align="center">
+<img src="./screenshots/6-event.png" width="100%">
+</p>
+
+---
+
+## 💼 Placement Portal
+
+<p align="center">
+<img src="./screenshots/7-placement.png" width="100%">
+</p>
+
+---
+
+## 📊 Analytics Dashboard
+
+<p align="center">
+<img src="./screenshots/8-analytics-dashboard.png" width="100%">
+</p>
+
+---
+
+# 📂 Project Structure
+
+```
+smart-campus/
+│
+├── app/
+├── components/
+├── lib/
+├── public/
+├── screenshots/
+├── types/
+├── README.md
+├── package.json
+└── next.config.ts
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Swathi200301/smart-campus-portal.git
+```
+
+Navigate into the project
+
+```bash
+cd smart-campus-portal
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📈 Modules Included
 
-To learn more about Next.js, take a look at the following resources:
+✅ Login Authentication UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Student Dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Faculty Dashboard
 
-## Deploy on Vercel
+✅ Admin Dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Attendance Management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ Leave Management
+
+✅ Event Management
+
+✅ Placement Portal
+
+✅ Analytics Dashboard
+
+---
+
+# 🎯 Future Enhancements
+
+- Firebase Authentication
+- MySQL Database Integration
+- Email Notifications
+- Role-Based Access Control
+- Cloud Storage
+- Student Result Management
+- Fee Management
+- AI-powered Student Analytics
+- Mobile Responsive Improvements
+
+---
+
+# 📊 Project Highlights
+
+- Responsive User Interface
+- Role-Based Dashboards
+- Modern UI Design
+- TypeScript Support
+- Reusable React Components
+- Search & Filter Functionality
+- Interactive Analytics
+- Deployment on Vercel
+- Version Controlled using Git & GitHub
+
+---
+
+# 👩‍💻 Developed By
+
+**Swathi C**
+
+B.E. Computer Science Engineering (IoT)
+
+Cambridge Institute of Technology
+
+
+🔗 GitHub: https://github.com/Swathi200301
+
+🌐 Live Demo: https://smart-campus-portal-sepia.vercel.app
+
+
