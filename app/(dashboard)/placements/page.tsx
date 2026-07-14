@@ -12,7 +12,8 @@ import { placements } from "@/lib/data";
 import type { Placement } from "@/types";
 
 export default function PlacementsPage() {
-  const [placementsData, setPlacementsData] = useState(placements);
+  const [placementsData, setPlacementsData] =
+  useState<Placement[]>(placements);
 
 const [showForm, setShowForm] = useState(false);
 
@@ -29,7 +30,9 @@ useEffect(() => {
   const saved = localStorage.getItem("placements");
 
   if (saved) {
-    setPlacementsData(JSON.parse(saved));
+    setPlacementsData(
+      JSON.parse(saved) as Placement[]
+    );
   }
 }, []);
 
@@ -49,12 +52,13 @@ const totalApplicants = placementsData.reduce(
   (sum, p) => sum + p.applicants,
   0
 );
-const filteredPlacements = placementsData.filter((p) =>
+const filteredPlacements: Placement[] =
+  placementsData.filter((p) =>
   p.company.toLowerCase().includes(search.toLowerCase())
 );
 
 const handleCreatePlacement = () => {
-  const newPlacement = {
+  const newPlacement: Placement = {
     id: `PL${Date.now()}`,
     company,
     role,
@@ -66,7 +70,10 @@ const handleCreatePlacement = () => {
     status: "open",
   };
 
-  const updated = [...placementsData, newPlacement];
+  const updated: Placement[] = [
+    ...placementsData,
+    newPlacement,
+  ];
 
   setPlacementsData(updated);
 
@@ -86,7 +93,8 @@ const handleCreatePlacement = () => {
 };
 
 const deletePlacement = (id: string) => {
-  const updated = placementsData.filter(
+  const updated: Placement[] =
+  placementsData.filter(
     (p) => p.id !== id
   );
 

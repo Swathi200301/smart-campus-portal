@@ -10,7 +10,8 @@ import { leaves } from "@/lib/data";
 import type { LeaveRequest } from "@/types";
 
 export default function LeavePage() {
-  const [leaveData, setLeaveData] = useState(leaves);
+  const [leaveData, setLeaveData] =
+  useState<LeaveRequest[]>(leaves);
   const [showForm, setShowForm] = useState(false);
   const [name, setName] = useState("");
   const [type, setType] = useState("");
@@ -20,7 +21,9 @@ useEffect(() => {
   const saved = localStorage.getItem("leaves");
 
   if (saved) {
-    setLeaveData(JSON.parse(saved));
+    setLeaveData(
+      JSON.parse(saved) as LeaveRequest[]
+    );
   }
 }, []);
 const updateStatus = (
@@ -29,7 +32,7 @@ const updateStatus = (
 ) => {
   console.log("Clicked:", id, status);
 
-  const updated = leaveData.map((leave) =>
+  const updated: LeaveRequest[] = leaveData.map((leave) =>
     leave.id === id ? { ...leave, status } : leave
   );
 
@@ -40,7 +43,7 @@ const handleSubmit = () => {
   const newLeave: LeaveRequest = {
     id: `LV${Date.now()}`,
     applicantName: name,
-    role: "Student",
+    role: "student",
     type: type,
     reason: reason,
     startDate: new Date().toISOString().split("T")[0],
@@ -48,7 +51,10 @@ const handleSubmit = () => {
     status: "pending",
   };
 
-  const updated = [...leaveData, newLeave];
+  const updated: LeaveRequest[] = [
+    ...leaveData,
+    newLeave,
+  ];
 
   setLeaveData(updated);
   localStorage.setItem("leaves", JSON.stringify(updated));
@@ -70,7 +76,8 @@ const approved = leaveData.filter(
 const rejected = leaveData.filter(
   (l) => l.status === "rejected"
 ).length;
-const filteredLeaves = leaveData.filter(
+const filteredLeaves: LeaveRequest[] =
+  leaveData.filter(
   (leave) =>
     leave.applicantName
       .toLowerCase()

@@ -6,9 +6,11 @@ import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { StatCard } from "@/components/ui/StatCard";
 import { events } from "@/lib/data";
+import type { CampusEvent } from "@/types";
 
 export default function EventsPage() {
-  const [eventsData, setEventsData] = useState(events);
+  const [eventsData, setEventsData] =
+  useState<CampusEvent[]>(events);
 
 const [showForm, setShowForm] = useState(false);
 
@@ -33,7 +35,9 @@ const [selectedCategory, setSelectedCategory] = useState("All");
     const saved = localStorage.getItem("events");
   
     if (saved) {
-      setEventsData(JSON.parse(saved));
+      setEventsData(
+        JSON.parse(saved) as CampusEvent[]
+      );
     }
   }, []);
   
@@ -67,7 +71,7 @@ const [selectedCategory, setSelectedCategory] = useState("All");
   });
   
   const handleCreateEvent = () => {
-    const newEvent = {
+    const newEvent: CampusEvent = {
       id: `EV${Date.now()}`,
       title,
       description,
@@ -79,7 +83,10 @@ const [selectedCategory, setSelectedCategory] = useState("All");
       status: "upcoming",
     };
   
-    const updated = [...eventsData, newEvent];
+    const updated: CampusEvent[] = [
+      ...eventsData,
+      newEvent,
+    ];
   
     setEventsData(updated);
   
@@ -99,9 +106,10 @@ const [selectedCategory, setSelectedCategory] = useState("All");
   };
   
   const deleteEvent = (id: string) => {
-    const updated = eventsData.filter(
-      (event) => event.id !== id
-    );
+    const updated: CampusEvent[] =
+  eventsData.filter(
+    (event) => event.id !== id
+  );
   
     setEventsData(updated);
   
